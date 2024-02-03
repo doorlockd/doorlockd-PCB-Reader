@@ -1485,7 +1485,7 @@
     (uuid fcd109cc-76a4-42f6-972a-067f8386cd14)
   )
 
-  (text "TODO:\n - Mark LED + on silk\n - Cut groundplane below cutout to prevent making loop/antenna.\n - Resistor values on silk?\n - 2N7002 hand soldering footprint\n - Reduce thermal size (esp C1 and transistors). Maybe just remove traces, or also -0,05mm?\n - decoupling/buffer caps?\n - Use only 1 GND of NFC reader(for EMI)?\n - Remove 45deg silkscreen line at J1\n\nDone:\n - Removed optional from pulldowns, made value 1k.\n - Added series resistors for button input\n - Added C2 to suppress output pin pulses\n - Enlarged mounting holes from 2.5mm to 3.2mm\n"
+  (text "TODO:\n - Mark LED + on silk\n - Resistor values on silk?\n - 2N7002 hand soldering footprint\n - Reduce thermal size (esp C1 and transistors). Maybe just remove traces, or also -0,05mm?\n - decoupling/buffer caps?\n - Remove 45deg silkscreen line at J1\n\nDone:\n - Removed optional from pulldowns, made value 1k.\n - Added series resistors for button input\n - Added C2 to suppress output pin pulses\n - Enlarged mounting holes from 2.5mm to 3.2mm\n"
     (at 116.84 152.4 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 01e32a62-9ff4-4d9b-8c16-da7a6f3596e4)
