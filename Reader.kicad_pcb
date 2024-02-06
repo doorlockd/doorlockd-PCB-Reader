@@ -2672,8 +2672,6 @@
     )
   )
 
-  (gr_line (start 103.7 84.8) (end 102.9 83.9)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 39929b48-a719-44f1-b215-2ad166ba9a67))
   (gr_line (start 103.5 79.4) (end 102.8 79.4)
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 579c5adf-b059-438f-b112-ab1725f5d3bf))
   (gr_line (start 103.8 80.7) (end 103.8 80.2)
