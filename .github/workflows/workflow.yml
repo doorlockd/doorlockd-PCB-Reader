@@ -12,5 +12,5 @@ on:
 
 jobs:
   workflow:
-    uses: 3devo/PCB-workflows/.github/workflows/dispatcher.yml@76543de1fd7ac36848740f744b9913219fb9ed00
+    uses: 3devo/PCB-workflows/.github/workflows/dispatcher.yml@1151aa188884ccd035693431950c7635aad30b9c
     secrets: inherit
