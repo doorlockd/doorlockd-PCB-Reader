@@ -3301,17 +3301,6 @@
 		)
 		(uuid "fcd109cc-76a4-42f6-972a-067f8386cd14")
 	)
-	(text "TODO:\n - Resistor values on silk?\n\nDone:\n - Removed optional from pulldowns, made value 1k\n - Added series resistors for button input\n - Added C2 to suppress output pin pulses\n - Enlarged mounting holes from 2.5mm to 3.2mm\n - Marked LED polarity on silkscreen\n - Reduced overly wide thermal reliefs due to wide GND traces\n - Added C3 as input supply buffer cap\n - Change to hand soldering footprints for transistors"
-		(exclude_from_sim no)
-		(at 116.84 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "01e32a62-9ff4-4d9b-8c16-da7a6f3596e4")
-	)
 	(text "This connector has VCC and GND, so it can\nbe used to control a load from VCC or\nan external power supply."
 		(exclude_from_sim no)
 		(at 25.4 116.84 0)
