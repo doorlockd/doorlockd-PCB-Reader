@@ -651,7 +651,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "../PCB-workflows/sheets/versioned_sheet_no_logo.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -740,7 +740,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "../PCB-workflows/sheets/versioned_sheet_no_logo.kicad_wks",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
@@ -758,5 +758,11 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "BOARD_REVISION": "dev",
+    "COMPONENTS_DATE": "dev",
+    "GIT_REVISION_INFO": "",
+    "SHEETPATH": "N/A",
+    "VARIANT": ""
+  }
 }
