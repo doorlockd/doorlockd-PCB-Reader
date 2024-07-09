@@ -11158,26 +11158,6 @@
 		)
 	)
 	(gr_line
-		(start 103.5 79.4)
-		(end 102.8 79.4)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "579c5adf-b059-438f-b112-ab1725f5d3bf")
-	)
-	(gr_line
-		(start 103.8 80.7)
-		(end 103.8 80.2)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "88e3124d-fd75-4677-b389-e700b7df6c63")
-	)
-	(gr_line
 		(start 79.8 82.05)
 		(end 79.8 117.95)
 		(stroke
