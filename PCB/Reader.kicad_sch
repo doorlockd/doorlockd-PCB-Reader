@@ -3539,9 +3539,9 @@
 		)
 		(uuid "9672ce12-1468-4573-86bd-c34dcabe862c")
 	)
-	(text "Note: I/O pins start up in quasi-bidirectional mode,\nmeaning a short strong high pulse and then a weak hold\ntransistor is enabled that can source around 200-300μA.\nInput low voltage max is 0.3×3V=0.9V, so the pulldown\nshould be at most 3k to ensure the pin becomes low after\nstartup.\n\nOn reset, there is also a 20μs weak pulse (<0.5V with 1k pulldown) about 250μs before RSTOUT becomes high,\nand a 2μs strong pulse 9ms after RSTOUT becomes high.\nThen, after reset when the first UART byte is received, there is another 3.5μs pulse.\nThis is probably when the chip wakes up from sleep (which needs 5 rising edges on RX).\n\nNote that the quasi-bidir pin behaviour is documented to give a strong pulse of 1 CPU_CLK, which is 148ns at the default 6.78Mhz.\nThis is also observed when manually toggling a quas-bidir pin after startup. So the pulses during startup are a lot longer so not  really the quasi-bidir behaviour.\n\nSo, 1k series plus 100n at the gate should be sufficient to completely supress all these pulses. This is only done for P71 for safety, for the LEDS\nthis pulse is not visible anyway.\n\nTODO: Check aux behavior."
+	(text "Note: I/O pins start up in quasi-bidirectional mode,\nmeaning a short strong high pulse and then a weak hold\ntransistor is enabled that can source around 200-300μA.\nInput low voltage max is 0.3×3V=0.9V, so the pulldown\nshould be at most 3k to ensure the pin becomes low after\nstartup.\n\nOn reset, there is also a 20μs weak pulse (<0.5V with 1k\npulldown) about 250μs before RSTOUT becomes high, and a\n2μs strong pulse 9ms after RSTOUT becomes high. Then,\nafter reset when the first UART byte is received, there\nis another 3.5μs pulse. This is probably when the chip\nwakes up from sleep (which needs 5 rising edges on RX).\n\nNote that the quasi-bidir pin behaviour is documented\nto give a strong pulse of 1 CPU_CLK, which is 148ns at\nthe default 6.78Mhz. This is also observed when manually\ntoggling a quas-bidir pin after startup. So the pulses\nduring startup are a lot longer so not really the\nquasi-bidir behaviour.\n\nSo, 1k series plus 100n at the gate should be sufficient\nto completely supress all these pulses. This is only\ndone for P71 for safety, for the LEDS this pulse is not\nvisible anyway.\n\nTODO: Check aux behavior."
 		(exclude_from_sim no)
-		(at 17.78 241.3 0)
+		(at 116.84 193.802 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5254,7 +5254,7 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Large")
 		(at 246.38 154.94 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5296,15 +5296,6 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, large"
-			(at 246.38 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 246.38 154.94 0)
 			(effects
 				(font
