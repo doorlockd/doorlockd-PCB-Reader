@@ -3462,7 +3462,7 @@
 		)
 		(uuid "19bf460c-1cd4-4610-8742-50b772137b50")
 	)
-	(text "Note: VCC is internally regulated to 3.0V\nby the PN532 chip, but the regulator output\nis not exposed by the  PN532 board.\nI/O pins thus have a max rating of 3.0V,\nbut hopefully the 100R combined with\na (hopefully existing) internal protection\ndiode allows using 3.3V signals without\nproblems..."
+	(text "Note: VCC is internally regulated to 3.0V\nby the PN532 chip, but the regulator output\nis not exposed by the  PN532 board.\nI/O pins thus have a max rating of 3.0V,\nbut hopefully the 100R (on the PN532 board)\ncombined with a (hopefully existing) internal\nprotection diode (in the PN532 chip) allows\nusing 3.3V signals without problems..."
 		(exclude_from_sim no)
 		(at 68.58 78.74 0)
 		(effects
@@ -3539,7 +3539,7 @@
 		)
 		(uuid "9672ce12-1468-4573-86bd-c34dcabe862c")
 	)
-	(text "Note: I/O pins start up in quasi-bidirectional mode,\nmeaning a short strong high pulse and then a weak hold\ntransistor is enabled that can source around 200-300μA.\nInput low voltage max is 0.3×3V=0.9V, so the pulldown\nshould be at most 3k to ensure the pin becomes low after\nstartup.\n\nOn reset, there is also a 20μs weak pulse (<0.5V with 1k\npulldown) about 250μs before RSTOUT becomes high, and a\n2μs strong pulse 9ms after RSTOUT becomes high. Then,\nafter reset when the first UART byte is received, there\nis another 3.5μs pulse. This is probably when the chip\nwakes up from sleep (which needs 5 rising edges on RX).\n\nNote that the quasi-bidir pin behaviour is documented\nto give a strong pulse of 1 CPU_CLK, which is 148ns at\nthe default 6.78Mhz. This is also observed when manually\ntoggling a quas-bidir pin after startup. So the pulses\nduring startup are a lot longer so not really the\nquasi-bidir behaviour.\n\nSo, 1k series plus 100n at the gate should be sufficient\nto completely supress all these pulses. This is only\ndone for P71 for safety, for the LEDS this pulse is not\nvisible anyway.\n\nTODO: Check aux behavior."
+	(text "Note: I/O pins start up in quasi-bidirectional mode,\nmeaning a short strong high pulse and then a weak hold\ntransistor is enabled that can source around 200-300μA.\nInput low voltage max is 0.3×3V=0.9V, so the pulldown\nshould be at most 3k to ensure the pin becomes low after\nstartup.\n\nOn reset, there is also a 20μs weak pulse (<0.5V with 1k\npulldown) about 250μs before RSTOUT becomes high, and a\n2μs strong pulse 9ms after RSTOUT becomes high. Then,\nafter reset when the first UART byte is received, there\nis another 3.5μs pulse. This is probably when the chip\nwakes up from sleep (which needs 5 rising edges on RX).\n\nNote that the quasi-bidir pin behaviour is documented\nto give a strong pulse of 1 CPU_CLK, which is 148ns at\nthe default 6.78Mhz. This is also observed when manually\ntoggling a quasi-bidir pin after startup. So the pulses\nduring startup are a lot longer so not really the\nquasi-bidir behaviour.\n\nSo, 1k series plus 100n at the gate should be sufficient\nto completely supress all these pulses. This 100n is only\ndone for P71 for safety, for the LEDS this pulse is not\nvisible anyway.\n\nTODO: Check aux behavior."
 		(exclude_from_sim no)
 		(at 116.84 193.802 0)
 		(effects
@@ -3549,6 +3549,17 @@
 			(justify left bottom)
 		)
 		(uuid "b297b155-3de6-4b88-9352-267916fa3174")
+	)
+	(text "J3 only used for\nmechanical stability."
+		(exclude_from_sim no)
+		(at 41.402 44.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b37de8ba-d7c3-4a9f-a5c4-b28ca8d7e0b1")
 	)
 	(text "Intended to mate with\n65239-002LF"
 		(exclude_from_sim no)
@@ -3561,14 +3572,14 @@
 		)
 		(uuid "b78560bc-ff6d-4d2a-beb0-4699dfbdcc94")
 	)
-	(text "All but RSTOUT_N have 100R in series"
+	(text "All but RSTOUT_N have 100R in series\n(on PN532 board)"
 		(exclude_from_sim no)
-		(at 41.91 50.8 0)
+		(at 41.402 48.514 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left top)
 		)
 		(uuid "c95857d7-27e4-4c52-8c8d-95df0199ca5f")
 	)
