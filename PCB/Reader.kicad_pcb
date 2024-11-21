@@ -220,7 +220,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-0000603c5e2c")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -443,7 +445,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-00006045d9ee")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -718,7 +722,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-000060252bf6")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -993,7 +999,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-0000604707b9")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1268,7 +1276,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-000060477ad2")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1543,7 +1553,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000060243a78")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1715,7 +1727,7 @@
 			(remove_unused_layers no)
 			(net 13 "RX_SHIFTED")
 			(pinfunction "Pin_1")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "bbbf6988-2861-4c11-a59b-5df87fb097b2")
 		)
 		(pad "2" thru_hole oval
@@ -1726,7 +1738,7 @@
 			(remove_unused_layers no)
 			(net 12 "TX_SHIFTED")
 			(pinfunction "Pin_2")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "67f22d95-95b8-4f49-b712-0ab4a1167390")
 		)
 		(pad "3" thru_hole oval
@@ -1737,7 +1749,7 @@
 			(remove_unused_layers no)
 			(net 35 "UNUSED_VCC")
 			(pinfunction "Pin_3")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "1dd59fc2-b629-4f9d-b428-186600811eb6")
 		)
 		(pad "4" thru_hole oval
@@ -1832,7 +1844,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000060244967")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2070,7 +2084,7 @@
 			(remove_unused_layers no)
 			(net 15 "IRQ")
 			(pinfunction "Pin_7")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "e4df8eb6-aaae-4f4f-84e1-9f004aafae58")
 		)
 		(pad "8" thru_hole oval
@@ -2165,7 +2179,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00006024aaad")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2357,7 +2373,7 @@
 			(remove_unused_layers no)
 			(net 27 "RSTPD_N")
 			(pinfunction "Pin_1")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "97f293dc-d736-4ab0-a4de-b64ab7645338")
 		)
 		(pad "2" thru_hole oval
@@ -2368,7 +2384,7 @@
 			(remove_unused_layers no)
 			(net 26 "SIGIN")
 			(pinfunction "Pin_2")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "dc2edfaf-1a40-472b-8c7f-99f67b690fca")
 		)
 		(pad "3" thru_hole oval
@@ -2379,7 +2395,7 @@
 			(remove_unused_layers no)
 			(net 25 "SIGOUT")
 			(pinfunction "Pin_3")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "59833a6f-5235-4f07-bdc6-d74bafb9b9e1")
 		)
 		(pad "4" thru_hole oval
@@ -2390,7 +2406,7 @@
 			(remove_unused_layers no)
 			(net 24 "P34")
 			(pinfunction "Pin_4")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "1fb48169-4f43-4b0a-a66d-6aca7a2e4f1d")
 		)
 		(pad "5" thru_hole oval
@@ -2445,7 +2461,7 @@
 			(remove_unused_layers no)
 			(net 19 "AUX2")
 			(pinfunction "Pin_9")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "3b1a2622-a01b-4490-aa1d-8868b38d52e4")
 		)
 		(pad "10" thru_hole oval
@@ -2539,7 +2555,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-0000603b0704")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3095,7 +3113,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00006039ea3b")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3755,7 +3775,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3781,7 +3801,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/00000000-0000-0000-0000-000060383a88")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4030,7 +4052,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4056,7 +4078,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/00000000-0000-0000-0000-00006045dd22")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4305,7 +4329,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4331,7 +4355,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/00000000-0000-0000-0000-00006029dff9")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4580,7 +4606,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4606,7 +4632,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/00000000-0000-0000-0000-0000604707bf")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4855,7 +4883,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4881,7 +4909,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/00000000-0000-0000-0000-000060477ad8")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5156,7 +5186,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000603f5610")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5378,7 +5410,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000060383aa6")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5600,7 +5634,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000603ca0d2")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5824,7 +5860,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00006045dd4c")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6048,7 +6086,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000602dade2")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6270,7 +6310,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00006045dd36")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6492,7 +6534,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000602a8e97")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6714,7 +6758,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00006045dd40")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6937,7 +6983,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000602b152d")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7162,7 +7210,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000604707d9")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7386,7 +7436,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000060477af2")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7608,7 +7660,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000604707cb")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7830,7 +7884,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000060477ae4")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8052,7 +8108,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000604707d1")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8275,7 +8333,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000060477aea")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8499,7 +8559,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/00000000-0000-0000-0000-0000604dd759")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9119,7 +9181,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/00000000-0000-0000-0000-00006053e770")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -9233,7 +9297,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/00000000-0000-0000-0000-00006053ef2a")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -9347,7 +9413,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/00000000-0000-0000-0000-00006053f6fd")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -9459,7 +9527,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-0000602987b3")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9720,7 +9790,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9746,7 +9816,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/00000000-0000-0000-0000-000060442396")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10021,7 +10093,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000604423aa")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10244,7 +10318,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000604423c0")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10466,7 +10542,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/899099a6-bec8-4ac6-8ef1-2cd1b951a80c")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10688,7 +10766,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/217cf82f-9d32-4c25-8c65-9f1963769372")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10910,7 +10990,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/1529e52a-1551-44e2-85bd-bd5418636809")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11132,7 +11214,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/b1157409-7c6b-47f9-a0e2-75abd397a899")
+		(sheetname "Root")
 		(sheetfile "Reader.kicad_sch")
 		(attr smd)
 		(fp_line
