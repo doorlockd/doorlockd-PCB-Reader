@@ -5076,7 +5076,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "~"
 			(at 154.178 26.543 0)
 			(effects
 				(font
@@ -6847,7 +6847,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200R"
+		(property "Value" "~"
 			(at 154.178 79.883 0)
 			(effects
 				(font
@@ -7391,7 +7391,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "~"
 			(at 213.868 26.543 0)
 			(effects
 				(font
@@ -7935,7 +7935,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "~"
 			(at 202.438 79.883 0)
 			(effects
 				(font
