@@ -9,6 +9,7 @@ doorlockd-cardreader version dev
  - Added C3 as input supply buffer cap
  - Change to hand soldering footprints for transistors
  - Clean up Fab and silkscreen layers
+ - Small layout and via improvements
 
 doorlockd-cardreader version 0.1
 ================================
