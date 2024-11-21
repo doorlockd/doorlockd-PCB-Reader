@@ -6664,7 +6664,7 @@
 				)
 			)
 		)
-		(property "Value" "200R"
+		(property "Value" "~"
 			(at 0 -1.5 0)
 			(layer "F.Fab")
 			(uuid "be1ff82c-0c7d-4ef3-9868-3bd9e5676030")
@@ -6820,6 +6820,7 @@
 		(fp_text user "${VALUE}"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "eadd91b3-6eb0-43fa-a77c-b3b332ca19d7")
 			(effects
 				(font
@@ -6886,7 +6887,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "~"
 			(at 0 -1.5 0)
 			(layer "F.Fab")
 			(uuid "f07a224d-85d7-4f14-a1ea-7fde23c87286")
@@ -7042,6 +7043,7 @@
 		(fp_text user "${VALUE}"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6f34e18b-d710-4ff8-a0a5-9277915496b1")
 			(effects
 				(font
@@ -8000,7 +8002,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "~"
 			(at 0 -1.5 0)
 			(layer "F.Fab")
 			(uuid "295c4afc-4153-45f8-9df3-f641f82effe2")
@@ -8156,6 +8158,7 @@
 		(fp_text user "${VALUE}"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "28efacff-c89c-4544-bb85-5557c7765f05")
 			(effects
 				(font
@@ -8222,7 +8225,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "~"
 			(at 0 -1.5 0)
 			(layer "F.Fab")
 			(uuid "659a2e41-efb4-4216-b4cd-04cc27cd0986")
@@ -8378,6 +8381,7 @@
 		(fp_text user "${VALUE}"
 			(at 0 -1.5 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3cf846b5-166d-423b-8923-f05a8b1312aa")
 			(effects
 				(font
@@ -11450,6 +11454,17 @@
 			(uuid "ea260765-23ba-40d1-b33b-ddcbc48f97aa")
 		)
 	)
+	(gr_rect
+		(start 83.5 74)
+		(end 92.5 80)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "f2510775-60c4-40aa-9d87-9230e78a9119")
+	)
 	(gr_line
 		(start 79.8 82.05)
 		(end 79.8 117.95)
@@ -11748,6 +11763,18 @@
 		(at 112 82 0)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-00006031f758")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "LED resistors\nYellow: 100R\nGreen: 100R\nRed: 200R"
+		(at 88 77 0)
+		(layer "B.SilkS")
+		(uuid "4f416601-b79d-45e6-b169-12ba276a72dc")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -13549,7 +13576,7 @@
 		(uuid "94a20d3c-8ea2-4bd8-88ff-e71beecda8d1")
 	)
 	(via
-		(at 90 79)
+		(at 90 79.5)
 		(size 0.7)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
