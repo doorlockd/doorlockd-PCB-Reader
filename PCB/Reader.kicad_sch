@@ -3462,9 +3462,9 @@
 		)
 		(uuid "19bf460c-1cd4-4610-8742-50b772137b50")
 	)
-	(text "Note: VCC is internally regulated to 3.0V\nby the PN532 chip, but the regulator output\nis not exposed by the  PN532 board.\nI/O pins thus have a max rating of 3.0V,\nbut hopefully the 100R (on the PN532 board)\ncombined with a (hopefully existing) internal\nprotection diode (in the PN532 chip) allows\nusing 3.3V signals without problems..."
+	(text "Note: VCC is internally regulated to 3.0V\nby the PN532 chip, but the regulator output\nis not exposed by the  PN532 board.\nI/O pins thus have a max rating of 3.0V,\nbut hopefully the 100R (on the PN532 board)\ncombined with a (hopefully existing) internal\nprotection diode (in the PN532 chip) allows\nusing 3.3V signals without problems...\n\nFor TX/RX we could have used the pins on J1,\nwhich are connected to a level-shifting FET\non the PN532 board, but then we would have\nopen-collector drive which is not ideal for\nnoise immunity (and these pins also require\nan external pullup and we have no 3.3V\navailable)."
 		(exclude_from_sim no)
-		(at 68.58 78.74 0)
+		(at 67.818 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
