@@ -12072,7 +12072,7 @@
 			(xy 110 68.010454) (xy 120.2 68.010454)
 		)
 		(height -10.010454)
-		(gr_text "10.2000 mm"
+		(gr_text "10.20 mm"
 			(at 115.1 56.85 0)
 			(layer "Dwgs.User")
 			(uuid "00000000-0000-0000-0000-0000602b0efa")
@@ -12088,11 +12088,11 @@
 			(suffix "")
 			(units 2)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.85)
 			(text_position_mode 0)
 			(extension_height 0.58642)
 			(extension_offset 0) keep_text_aligned)
@@ -12105,8 +12105,8 @@
 			(xy 110 61.35) (xy 110 67)
 		)
 		(height -15.3)
-		(gr_text "5.6500 mm"
-			(at 124.15 64.175 90)
+		(gr_text "5.65 mm"
+			(at 126.9 66.4 90)
 			(layer "Dwgs.User")
 			(uuid "0960d2b1-9a82-47cc-bf31-d62f6c6848b5")
 			(effects
@@ -12114,6 +12114,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify left)
 			)
 		)
 		(format
@@ -12121,12 +12122,12 @@
 			(suffix "")
 			(units 2)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
-			(text_position_mode 0)
+			(arrow_length 0.85)
+			(text_position_mode 2)
 			(extension_height 0.58642)
 			(extension_offset 0) keep_text_aligned)
 	)
@@ -12138,7 +12139,7 @@
 			(xy 108 110) (xy 92 110)
 		)
 		(height -15)
-		(gr_text "16.0000 mm"
+		(gr_text "16.00 mm"
 			(at 100 123.85 0)
 			(layer "Dwgs.User")
 			(uuid "2d80489a-65b7-4d4f-9df1-df6cfea6c7a9")
@@ -12154,11 +12155,11 @@
 			(suffix "")
 			(units 2)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.85)
 			(text_position_mode 0)
 			(extension_height 0.58642)
 			(extension_offset 0) keep_text_aligned)
@@ -12171,7 +12172,7 @@
 			(xy 79.8 61.35) (xy 79.8 121.35)
 		)
 		(height 8.95)
-		(gr_text "60.0000 mm"
+		(gr_text "60.00 mm"
 			(at 69.7 91.35 90)
 			(layer "Dwgs.User")
 			(uuid "48aed7fa-b68e-498d-8bba-133028770c01")
@@ -12187,11 +12188,11 @@
 			(suffix "")
 			(units 2)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.85)
 			(text_position_mode 0)
 			(extension_height 0.58642)
 			(extension_offset 0) keep_text_aligned)
@@ -12204,7 +12205,7 @@
 			(xy 79.8 113.95) (xy 87.4 113.95)
 		)
 		(height 14.05)
-		(gr_text "7.6000 mm"
+		(gr_text "7.60 mm"
 			(at 83.6 126.85 0)
 			(layer "Dwgs.User")
 			(uuid "4d46c517-f86f-457f-8b0a-a06a1e032c29")
@@ -12220,11 +12221,11 @@
 			(suffix "")
 			(units 2)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.85)
 			(text_position_mode 0)
 			(extension_height 0.58642)
 			(extension_offset 0) keep_text_aligned)
@@ -12237,7 +12238,7 @@
 			(xy 120.2 113.95) (xy 112.6 113.95)
 		)
 		(height -14.05)
-		(gr_text "7.6000 mm"
+		(gr_text "7.60 mm"
 			(at 116.4 126.85 0)
 			(layer "Dwgs.User")
 			(uuid "4f1eadb7-4c75-4f65-9e73-c9c8ebedde0c")
@@ -12253,11 +12254,11 @@
 			(suffix "")
 			(units 2)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.85)
 			(text_position_mode 0)
 			(extension_height 0.58642)
 			(extension_offset 0) keep_text_aligned)
@@ -12270,7 +12271,7 @@
 			(xy 87.4 113.95) (xy 87.4 86.15)
 		)
 		(height -12.4)
-		(gr_text "27.8000 mm"
+		(gr_text "27.80 mm"
 			(at 73.85 100.05 90)
 			(layer "Dwgs.User")
 			(uuid "5c14e7b8-7f41-4b45-95b2-9a7b31056ca4")
@@ -12286,11 +12287,11 @@
 			(suffix "")
 			(units 2)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.85)
 			(text_position_mode 0)
 			(extension_height 0.58642)
 			(extension_offset 0) keep_text_aligned)
@@ -12303,7 +12304,7 @@
 			(xy 87.4 113.95) (xy 87.4 121.35)
 		)
 		(height 12.4)
-		(gr_text "7.4000 mm"
+		(gr_text "7.40 mm"
 			(at 73.85 117.65 90)
 			(layer "Dwgs.User")
 			(uuid "7274a382-7349-4234-8d8f-233067748197")
@@ -12319,11 +12320,11 @@
 			(suffix "")
 			(units 2)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.85)
 			(text_position_mode 0)
 			(extension_height 0.58642)
 			(extension_offset 0) keep_text_aligned)
@@ -12336,7 +12337,7 @@
 			(xy 79.8 67) (xy 90 67)
 		)
 		(height -9)
-		(gr_text "10.2000 mm"
+		(gr_text "10.20 mm"
 			(at 84.9 56.85 0)
 			(layer "Dwgs.User")
 			(uuid "7a76e6bd-6b8f-40e1-be2f-10f444556880")
@@ -12352,11 +12353,11 @@
 			(suffix "")
 			(units 2)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.85)
 			(text_position_mode 0)
 			(extension_height 0.58642)
 			(extension_offset 0) keep_text_aligned)
@@ -12366,11 +12367,11 @@
 		(layer "Dwgs.User")
 		(uuid "9ec90b3f-8c9b-4d64-80a1-92c6ac3d72fe")
 		(pts
-			(xy 106 92) (xy 106 112)
+			(xy 106 92.5) (xy 106 112)
 		)
 		(height -19)
-		(gr_text "20.0000 mm"
-			(at 123.85 102 90)
+		(gr_text "19.50 mm"
+			(at 123.85 102.25 90)
 			(layer "Dwgs.User")
 			(uuid "9ec90b3f-8c9b-4d64-80a1-92c6ac3d72fe")
 			(effects
@@ -12385,11 +12386,11 @@
 			(suffix "")
 			(units 2)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.85)
 			(text_position_mode 0)
 			(extension_height 0.58642)
 			(extension_offset 0) keep_text_aligned)
@@ -12402,7 +12403,7 @@
 			(xy 79.8 61.35) (xy 120.2 61.35)
 		)
 		(height -8.35)
-		(gr_text "40.4000 mm"
+		(gr_text "40.40 mm"
 			(at 100 51.85 0)
 			(layer "Dwgs.User")
 			(uuid "a6e87455-ac81-4bd8-b655-6c4d6de06867")
@@ -12418,11 +12419,11 @@
 			(suffix "")
 			(units 2)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.85)
 			(text_position_mode 0)
 			(extension_height 0.58642)
 			(extension_offset 0) keep_text_aligned)
@@ -12435,7 +12436,7 @@
 			(xy 112.6 113.95) (xy 87.4 113.95)
 		)
 		(height -14.05)
-		(gr_text "25.2000 mm"
+		(gr_text "25.20 mm"
 			(at 100 126.85 0)
 			(layer "Dwgs.User")
 			(uuid "a92c245f-c4f6-437a-9ac6-215635f367d2")
@@ -12451,11 +12452,11 @@
 			(suffix "")
 			(units 2)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.85)
 			(text_position_mode 0)
 			(extension_height 0.58642)
 			(extension_offset 0) keep_text_aligned)
@@ -12468,8 +12469,8 @@
 			(xy 110 67) (xy 110 69)
 		)
 		(height -15.3)
-		(gr_text "2.0000 mm"
-			(at 124.15 68 90)
+		(gr_text "2.00 mm"
+			(at 126.9 67.3 90)
 			(layer "Dwgs.User")
 			(uuid "c16a7057-207e-4d2c-b33d-38907c45993b")
 			(effects
@@ -12477,6 +12478,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
 		(format
@@ -12484,12 +12486,12 @@
 			(suffix "")
 			(units 2)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
-			(text_position_mode 0)
+			(arrow_length 0.85)
+			(text_position_mode 2)
 			(extension_height 0.58642)
 			(extension_offset 0) keep_text_aligned)
 	)
@@ -12498,11 +12500,11 @@
 		(layer "Dwgs.User")
 		(uuid "d5d83ce5-5a5a-4487-a838-74d8432172c4")
 		(pts
-			(xy 106 122.35) (xy 106 112)
+			(xy 106 121.35) (xy 106 112)
 		)
 		(height 19)
-		(gr_text "10.3500 mm"
-			(at 123.85 117.175 90)
+		(gr_text "9.35 mm"
+			(at 123.85 116.675 90)
 			(layer "Dwgs.User")
 			(uuid "d5d83ce5-5a5a-4487-a838-74d8432172c4")
 			(effects
@@ -12517,11 +12519,11 @@
 			(suffix "")
 			(units 2)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.85)
 			(text_position_mode 0)
 			(extension_height 0.58642)
 			(extension_offset 0) keep_text_aligned)
@@ -12534,7 +12536,7 @@
 			(xy 87.4 61.35) (xy 87.4 86.15)
 		)
 		(height 12.4)
-		(gr_text "24.8000 mm"
+		(gr_text "24.80 mm"
 			(at 73.85 73.75 90)
 			(layer "Dwgs.User")
 			(uuid "ddf4b091-fa91-44a8-b3b4-eaef2be2a87b")
@@ -12550,11 +12552,11 @@
 			(suffix "")
 			(units 2)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.85)
 			(text_position_mode 0)
 			(extension_height 0.58642)
 			(extension_offset 0) keep_text_aligned)
@@ -12567,7 +12569,7 @@
 			(xy 90 67) (xy 110 67)
 		)
 		(height -9)
-		(gr_text "20.0000 mm"
+		(gr_text "20.00 mm"
 			(at 100 56.85 0)
 			(layer "Dwgs.User")
 			(uuid "e5e73e28-83e6-41d5-8f2d-51fc670d6f64")
@@ -12583,11 +12585,11 @@
 			(suffix "")
 			(units 2)
 			(units_format 1)
-			(precision 4)
+			(precision 2)
 		)
 		(style
 			(thickness 0.15)
-			(arrow_length 1.27)
+			(arrow_length 0.85)
 			(text_position_mode 0)
 			(extension_height 0.58642)
 			(extension_offset 0) keep_text_aligned)
