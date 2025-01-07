@@ -7,6 +7,11 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Doorlockd Reader PCB")
+		(comment 1 "Copyright 2021-2025 Matthijs Kooijman <matthijs@stdin.nl>\n")
+		(comment 2 "Licensed under CERN-OHL-P v2 or any later version")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" power)
@@ -11843,7 +11848,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "CC-BY 4.0"
+	(gr_text "CERN-OHL-P v2+"
 		(at 112 82 0)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-00006031f758")

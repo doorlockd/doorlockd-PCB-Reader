@@ -7,7 +7,8 @@
 	(title_block
 		(title "Doorlockd Reader PCB")
 		(date "2021-02-20")
-		(rev "0.1")
+		(comment 1 "Copyright 2021-2025 Matthijs Kooijman <matthijs@stdin.nl>\n")
+		(comment 2 "Licensed under CERN-OHL-P v2 or any later version")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
