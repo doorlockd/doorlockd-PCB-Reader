@@ -12,5 +12,8 @@ on:
 
 jobs:
   workflow:
+    permissions:
+      # Allow creating releases
+      contents: write
     uses: 3devo/PCB-workflows/.github/workflows/dispatcher.yml@5165ca9496ab82403604c0384a2b88598c27fb70
     secrets: inherit
