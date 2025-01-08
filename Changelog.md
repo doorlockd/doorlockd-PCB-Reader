@@ -1,5 +1,5 @@
-doorlockd-cardreader version dev
-================================
+DoorlockCardreader version 1.0, components 2025-01-08
+=====================================================
  - Added C2 on Q5 gate to suppress startup pulse on PN532 P71 pin.
  - Added R18 and R19 in series with the P72 input pin.
  - Removed optional from pulldowns, made value 1k
